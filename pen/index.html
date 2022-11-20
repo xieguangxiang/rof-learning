@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>BUY A LAMY</title>
+        <style type="text/css">
+            .mybutton1{
+                background-color:transparent; 
+                border-width:0; 
+                outline:none; 
+                color:white;
+                padding:13px 15.5px 20px 15.5px;
+                cursor: pointer;
+                transition: background 0.5s, color 0.5s;
+                -webkit-transition: background 0.5s, color 0.5s;
+            }
+            .mybutton1:hover{
+                color: black;
+                background: white;
+            }
+            .mybutton2{
+                background-color:transparent; 
+                border-width:0; 
+                outline:none; 
+                color:white;
+                padding:27px 49px 21px 100px;
+                cursor: pointer;
+                transition: background 0.5s, color 0.5s;
+                -webkit-transition: background 0.5s, color 0.5s;
+            }
+            .mybutton2:hover{
+                color: black;
+                background: white;
+            }
+            .Top{
+                width:1920px;
+                height:814px;
+                position:relative;
+                margin:0 auto;
+            }
+            .Top_content{
+                width: 1920px;
+                height:50px;
+                display:flex;
+                justify-content:center;
+                position:absolute;
+                left:0;
+                top:0;
+            }
+            .box1{
+                width:170px;
+                height:90px;
+                text-align: center;
+                line-height:50px;
+                font-size:8px;
+                color:white;
+                margin-right:15px;
+            }
+            .box3{
+                width:244px;
+                height:66px;
+                text-align: center;
+                line-height:66px;
+                font-size:22px;
+                color:white;
+                background-color: black;
+                margin-right:15px;
+                position:absolute;
+                left:837px;
+                top:1184px;
+            }
+            .box6{
+                width:244px;
+                height:66px;
+                text-align: center;
+                line-height:66px;
+                font-size:22px;
+                color:white;
+                background-color: black;
+                margin-right:15px;
+                position:absolute;
+                left:844px;
+                top:1254px;
+            }
+            .box7{
+                width:244px;
+                height:66px;
+                text-align: center;
+                line-height:66px;
+                font-size:22px;
+                color:white;
+                background-color: red;
+                margin-right:15px;
+                position:absolute;
+                left:865px;
+                top:566px;
+            }
+            .box8{
+                width:832px;
+                height:390px;
+                background-color: white;
+                position: absolute;
+                margin:16px;
+                float:left;
+                left:545px;
+                top:92px;
+            }
+            .end1{
+                width:377px;
+                height:121px;
+                position: absolute;
+                margin:14px;
+                left:561px;
+                top:108px;
+            }
+            .end2{
+                width:426px;
+                height:54px;
+                position: absolute;
+                margin:14px;
+                left:952px;
+                top:108px;
+            }
+            .end3{
+                width:377px;
+                height:121px;
+                position: absolute;
+                margin:14px;
+                left:561px;
+                top:243px;
+            }
+            .end4{
+                width:401px;
+                height:58px;
+                position: absolute;
+                margin:14px;
+                left:952px;
+                top:243px;
+            }
+            .end5{
+                width:377px;
+                height:121px;
+                position: absolute;
+                margin:14px;
+                left:561px;
+                top:378px;
+            }
+            .end6{
+                width:404px;
+                height:54px;
+                position: absolute;
+                margin:14px;
+                left:952px;
+                top:378px;
+            }
+            .end7{
+                width:313px;
+                height:76px;
+                position: absolute;
+                margin:14px;
+                left:793px;
+                top:884px;
+            }
+            .end8{
+                width:67px;
+                height:34px;
+                position: absolute;
+                margin:14px;
+                left:673px;
+                top:922px;
+            }
+            .end9{
+                width:76px;
+                height:34px;
+                position: absolute;
+                margin:14px;
+                left:1132px;
+                top:922px;
+            }
+            .box2{
+                background-color: red;
+                width:auto;
+                height:90px;
+            }
+            .box4{
+                background-color: red;
+                width:90px;
+                height:40px;
+                position:absolute;
+                left:405px;
+                bottom:192px;
+            }
+            .box5{
+                background-color: white;
+                width:818px;
+                height:274px;
+                position: absolute;
+                left:545px;
+                top:170px;
+            }
+            .Top_word{
+                width:100%;
+                height:214px;
+                margin-top:238px;
+                position:absolute;
+                left:450px;
+                top:90px;
+            }
+            .Del{
+                width:1920px;
+                height:1682px;
+                margin:30px auto 0;
+                position:relative; 
+            }
+            .Del_bg1{
+                background-color: lightgray;
+                width:1920px;
+                height:448px;
+                position:absolute;
+                top:0;
+                left:0;
+            }
+            .Del_bg2{
+                background-color: lightgray;
+                width:1920px;
+                height:390px;
+                position:absolute;
+                bottom:0;
+                left:0;
+            }
+            .Del_bg_rm{
+                width:1152px;
+                height:508px;
+                position:absolute;
+                display:flex;
+                top:38px;
+                left:410px;
+            }
+            .del_pic{
+                width: 421px;
+                height: 505px;
+            }
+            .del_word{
+                width:auto;
+                height:505px;
+                color: black;
+                padding:76px 60px 80px 80px;
+                background-color: white;
+                font-size: 20px;
+            }
+            .del_player{
+                width:370px;
+                height:263px;
+                background-color: #ec4a7f;
+                position:absolute;
+                top:374px;
+                left:530px;
+            }
+            .del_play{
+                width:58px;
+                height: 58px;
+                position: absolute;
+                top:450px;
+                left:690px;
+            }
+            .del_words1{
+                width: 301px;
+                height: 45px;
+                position:absolute;
+                left:805px;
+                top:710px;
+            }
+            .del_words2{
+                width: 354px;
+                height: 155px;
+                position:absolute;
+                left:383px;
+                top:872px;
+            }
+            .del_words3{
+                width: 361px;
+                height: 135px;
+                position:absolute;
+                left:773px;
+                top:872px;
+            }
+            .del_words4{
+                width: 354px;
+                height: 165px;
+                position:absolute;
+                left:1163px;
+                top:872px;
+            }
+            .del_bottom1{
+                width:1920px;
+                height:389px;
+                position:absolute;
+                left:0;
+                bottom:0;
+            }
+            .del_bottom2{
+                width:54px;
+                height:14px;
+                position:absolute;
+                left:417px;
+                bottom:205px;
+            }
+            .pur{
+                width:1920px;
+                height:1358px;
+                position:relative;
+                margin:0 auto;
+            }
+            .purbg{
+                width:1920px;
+                height:349px;
+                position:absolute;
+                background-color: #6f6d6d;
+                top:0;
+                left:0;
+            }
+            .pur_w1{
+                width:157px;
+                height: 21px;
+                position: absolute;
+                left:882px;
+                top:78px;
+            }
+            .pur_w2{
+                width:302px ;
+                height:23px ;
+                position: absolute;
+                left:815px;
+                top:112px;
+            }
+            .pur_w3{
+                width: 71px;
+                height: 71px;
+                position: absolute;
+                left:925px;
+                top:212px;
+            }
+            .pur_w4{
+                width:528px ;
+                height:58px ;
+                position: absolute;
+                left:690px;
+                top:310px;
+            }
+            .pur_w5{
+                width: 189px;
+                height: 10px;
+                position: absolute;
+                left:865px;
+                top:402px;
+            }
+            .pur_w6{
+                width: 69px;
+                height: 16px;
+                position: absolute;
+                left:923px;
+                top:526px;
+            }
+            .pur_w7{
+                width: 156px;
+                height: 22px;
+                position: absolute;
+                left:879px;
+                top:554px;
+            }
+            .pur_w8{
+                width: 249px;
+                height: 227px;
+                position: absolute;
+                left:511px;
+                top:624px;
+            }
+            .pur_w9{
+                width: 249px;
+                height: 303px;
+                position: absolute;
+                left:511px;
+                top:870px;
+            }
+            .pur_w10{
+                width: 249px;
+                height: 372px;
+                position: absolute;
+                left:829px;
+                top:624px;
+            }
+            .pur_w11{
+                width: 249px;
+                height: 163px;
+                position: absolute;
+                left:829px;
+                top:1016px;
+            }
+            .pur_w12{
+                width: 249px;
+                height: 227px;
+                position: absolute;
+                left:1145px;
+                top:624px;
+            }
+            .pur_w13{
+                width: 249px;
+                height: 303px;
+                position: absolute;
+                left:1145px;
+                top:870px;
+            }
+            .end{
+                width:1920px;
+                height:1666px;
+                position: relative;
+                margin:0 auto;
+            }
+            .endbg1{
+                width:100%;
+                height:340px;
+                background-color: #6f6d6d;
+            }
+            .endbg2{
+                width:1920px;
+                height:978px;
+                position: absolute;
+                left:0;
+                bottom:36px;
+            }
+            .endbottom{
+                width:1920px;
+                height:36px;
+                position: absolute;
+                left:0;
+                bottom:0;
+            }
+            .endbottomword{
+                width:244px;
+                height:15px;
+                position: absolute;
+                left:837px;
+                bottom:8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Top" >
+            <img src="./images/top_background.png" alt="背景图" align="center" />
+            <div class="Top_content">
+                <div class="box1">
+                    <button class="mybutton1">新品推荐</button>
+                </div>
+                <div class="box1">
+                    <button class="mybutton1">在线购买产品</button>
+                </div>
+                <div class="box2">
+                    <span style="font-weight:bolder; text-align: left;">
+                        <em>LAMY</em>
+                    </span><br />&nbsp;&nbsp;
+                    <span style="font-size:1px; font-weight: bold;">
+                        Design.Made in Germany
+                    </span>
+                </div>
+                <div class="box1">
+                    <button class="mybutton1">企业礼包</button>
+                </div>
+                <div class="box1">
+                    <button class="mybutton1">品牌介绍</button>
+                </div>
+            </div>
+            <div class="Top_word">
+                <img src="./images/Top_artWord.png" alt="word" align="center" />
+            </div>
+        </div>
+        <div class="Del">
+            <div class="Del_bg1"></div>
+            <div class="Del_bg2"></div>
+            <div class="Del_bg_rm">
+                <img src="./images/Detail_img.png" alt="第二部分图片_00.png" class="del_img">
+                <div class="del_word">
+                    <h1>Welcome to LAMY</h1>
+                    <p>德国书写工具品牌LAMY创始人C·Josef Lamy于1930年在海德堡创立了欧瑟斯墨水笔制造厂。1952年，崭露头角的LAMY流线型墨水笔，震撼问世，彰显公司的创新敏锐触觉。1966年终于打</p>
+                    <p>造出令人耳目一新的现代经典之作-LAMY 2000系列。产品撮合了聚碳酸酯与不锈钢材质，绝妙的搭配，使之从芸芸众生的书写工具中脱颖而出，时至今日，依然在市场具有影响力。</p>
+                </div>
+            </div>
+            <div class="del_player"></div>
+            <img src="./images/player.png" alt="player" class="del_play" />
+            <img src="./images/Detail_img2.png" alt="img" class="del_words1">
+            <img src="./images/Detail_img3.png" alt="img" class="del_words2">
+            <img src="./images/Detail_img4.png" alt="img" class="del_words3">
+            <img src="./images/Detail_img5.png" alt="img" class="del_words4">
+            <div class="box3">
+                <button class="mybutton2">了解详情&nbsp;>></button>
+            </div>
+            <img src="./images/del_bottom1.png" alt="img" class="del_bottom1">
+            <div class="box4"></div>
+            <img src="./images/del_bottom2.png" alt="img" class="del_bottom2">
+        </div>
+        <div class="pur">
+            <div class="purbg"></div>
+            <img src="./images/Form Germany.png" alt="img" class="pur_w1">
+            <img src="./images/What people are saying_ .png" alt="img" class="pur_w2">
+            <div class="box5"></div>
+            <img src="./images/headimg.png" alt="img" class="pur_w3">
+            <img src="./images/purword.png" alt="img" class="pur_w4">
+            <img src="./images/change.png" alt="img" class="pur_w5">
+            <img src="./images/Choose.png" alt="img" class="pur_w6">
+            <img src="./images/Our products.png" alt="img" class="pur_w7">
+            <img src="./images/1.png" alt="img" class="pur_w8">
+            <img src="./images/2.png" alt="img" class="pur_w9">
+            <img src="./images/3.png" alt="img" class="pur_w10">
+            <img src="./images/4.png" alt="img" class="pur_w11">
+            <img src="./images/5.png" alt="img" class="pur_w12">
+            <img src="./images/6.png" alt="img" class="pur_w13">
+            <div class="box6">
+                <button class="mybutton2">戳我速购&nbsp;>></button>
+            </div>
+        </div>
+        <div class="end">
+            <div class="endbg1"></div>
+            <div class="box8"></div>
+            <img src="./images/end1.png" alt="img" class="end1">
+            <img src="./images/end2.png" alt="img" class="end2">
+            <img src="./images/end3.png" alt="img" class="end3">
+            <img src="./images/end4.png" alt="img" class="end4">
+            <img src="./images/end5.png" alt="img" class="end5">
+            <img src="./images/end6.png" alt="img" class="end6">
+            <div class="box7">
+                <button class="mybutton2">新品推荐&nbsp;>></button>
+            </div>
+            <img src="./images/endbg2.png" alt="img" class="endbg2">
+            <img src="./images/end7.png" alt="img" class="end7">
+            <img src="./images/end8.png" alt="img" class="end8">
+            <img src="./images/end9.png" alt="img" class="end9">
+            <img src="./images/end_bottom.png" alt="img" class="endbottom">
+            <img src="./images/end_bottom_word.png" alt="img" class="endbottomword">
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
