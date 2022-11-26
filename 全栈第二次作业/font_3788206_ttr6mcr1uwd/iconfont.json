@@ -1,0 +1,30 @@
+{
+  "id": "3788206",
+  "name": "第二次作业网页",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5387579",
+      "name": "箭头_切换左",
+      "font_class": "jiantou_qiehuanzuo",
+      "unicode": "eb06",
+      "unicode_decimal": 60166
+    },
+    {
+      "icon_id": "5387866",
+      "name": "加号_o",
+      "font_class": "jiahao_o",
+      "unicode": "eb78",
+      "unicode_decimal": 60280
+    },
+    {
+      "icon_id": "32833378",
+      "name": "提示",
+      "font_class": "tishi",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    }
+  ]
+}

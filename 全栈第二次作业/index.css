@@ -1,0 +1,151 @@
+* {
+    margin:0;
+    padding:0;
+}
+.bg{
+    width:100%;
+    height:1060px;
+    position: relative;
+}
+.content{
+    width:600px;
+    height:auto;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,0);
+}
+.top{
+    width:100%;
+    margin-top:32px;
+    display:flex;
+    justify-content:space-between;
+}
+.top_button{
+    background-color:transparent;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+.top_box1{
+    width:42px;
+    height:42px;
+    margin:0 20px;
+    border:4px solid #8ec7d1;
+    border-radius:50%;
+}
+.top_box2{
+    width:auto;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:22px;
+    font-weight:bold;
+    color:white;
+}
+.top_box3{
+    width:50px;
+    height:50px;
+    margin:0 20px;
+    font-size:50px;
+}
+.photo input{
+    width:145px;
+    height:145px;
+    position: absolute;
+    opacity:0;
+}
+.photo{
+    width:145px;
+    height:145px;
+    margin:85px auto 0;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border:2px solid #8ec7d1;
+    border-radius:50%;
+    background-color:rgba(100,165,186,0.5);
+}
+.photo_jiahao{
+    color:#c2dce3;
+    font-weight:bold;
+    font-size:52px;
+}
+.photo_word{
+    font-size:16px;
+    font-weight:bold;
+    color:#c2dce3;
+    margin-top:10px;
+}
+input::-webkit-input-placeholder{
+    color:white;
+    font-size:25px;
+}
+.my_input input{
+    box-sizing: border-box;
+    background-color:transparent;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:2px;
+    border-color: #8a9fc2;
+    border-bottom-style:solid;
+    outline: medium;
+}
+.my_input{
+    width:442px;
+    height:auto;
+    margin-top:6px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.my_input_information{
+    width:442px;
+    height:84px;
+    margin:0;
+    padding-left:5px;
+    font-size:25px;
+    color: white;
+}
+.password{
+    width:442px;
+    height:auto;
+    display:flex;
+    position:relative;
+}
+.green_button{
+    color:#3cffb5;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    font-size:20px;
+    cursor: pointer;
+}
+#show_password{
+    width:auto;
+    height:84px;
+    line-height:84px;
+    color:#3cffb5;
+    font-size:25px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+#tijiao{
+    width:100%;
+    height:75px;
+    margin-top:43px;
+    border:none;
+    font-size:32px;
+    font-weight: bold;
+    color:#706d9f;
+    background-color:white;
+    border-radius:35px;
+}
+.sign_in{
+    margin-top:34px;
+    font-size:20px;
+    color: white;
+}
